@@ -15,23 +15,25 @@
     </style>
 </head>
 <body>
-<div align="center">
-    <div class="general">
-        <div id="bandeau"><div class="retour_accueil"><a href="AC3A.php"><img src="images/transparent_logo.png" width="180" height="65" /></a></div>
-            <div class="versionEN"><a href="http://www.ac3a.fr/AC3A_en.php"><img src="images/drapeaux/drapeau_versionEN.png" width="800" height="22" /></a></a></div>
-            <div id="bloc_menu_bandeau">
-
-                <div class="bouton_contact"><a href="contact.php?mb=1">contact</a></div>
-                <div class="bouton_menu_haut_actif"><a href="qui_sommes_nous.php?m=2&p=bref_historique&mb=2">Qui sommes nous ?</a></div>
-                <div class="bouton_menu_haut"><a href="action_politique.php?m=6&p=agricultures_atlantiques&mb=6">Action politique</a></div>
-                <div class="bouton_menu_haut"><a href="missions_projets.php?m=3&p=mission_ac3a&mb=3">NOS missions et projets</a></div>
-                <div class="bouton_menu_haut"><a href="https://ac3anews.wordpress.com/" target="_blank" >actualités - vie du réseau</a></div>
-                <div class="bouton_menu_haut"><a href="ressources.php?p=economie_de_proximite&mb=5">centre de ressources</a></div>
-
-            </div>
-        </div>
-    </div>
-
+<!--<div align="center">-->
+<!--    <div class="general">-->
+<!--        <div id="bandeau"><div class="retour_accueil"><a href="AC3A.php"><img src="images/transparent_logo.png" width="180" height="65" /></a></div>-->
+<!--            <div class="versionEN"><a href="http://www.ac3a.fr/AC3A_en.php"><img src="images/drapeaux/drapeau_versionEN.png" width="800" height="22" /></a></a></div>-->
+<!--            <div id="bloc_menu_bandeau">-->
+<!---->
+<!--                <div class="bouton_contact"><a href="contact.php?mb=1">contact</a></div>-->
+<!--                <div class="bouton_menu_haut_actif"><a href="qui_sommes_nous.php?m=2&p=bref_historique&mb=2">Qui sommes nous ?</a></div>-->
+<!--                <div class="bouton_menu_haut"><a href="action_politique.php?m=6&p=agricultures_atlantiques&mb=6">Action politique</a></div>-->
+<!--                <div class="bouton_menu_haut"><a href="missions_projets.php?m=3&p=mission_ac3a&mb=3">NOS missions et projets</a></div>-->
+<!--                <div class="bouton_menu_haut"><a href="https://ac3anews.wordpress.com/" target="_blank" >actualités - vie du réseau</a></div>-->
+<!--                <div class="bouton_menu_haut"><a href="ressources.php?p=economie_de_proximite&mb=5">centre de ressources</a></div>-->
+<!---->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<?php
+include_once 'part/entete.php'
+?>
     <div align="center">
         <div id="general_projets">
             <div id="page_entete">qui sommes nous ?</div>
