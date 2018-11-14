@@ -39,13 +39,11 @@
 
                 <div class="menu_gauche1_2">
 
-                    <div class="menu_actif2"><a href="qui_sommes_nous.php?m=2&p=bref_historique&mb=2">Notre objectif général </a></div>
-                    <div class="menu_gauche2"><a href="qui_sommes_nous.php?m=2&p=organisation_ac3a&mb=2">Nos Objectifs Spécifiques</a></div>
-                    <div class="menu_gauche2"><a href="qui_sommes_nous.php?m=2&p=organigramme_ac3a&mb=2">Nos missions</a></div>
-                    <div class="menu_gauche2"><a href="qui_sommes_nous.php?m=2&p=mission_politique&mb=2">Nos valeurs </a></div>
-                    <div class="menu_gauche2"><a href="qui_sommes_nous.php?m=2&p=organisation_inter_Chambres&mb=2">Moyens d'action</a></div>
-
-
+                    <div class="menu_actif2"><a href="mainverte.php">Notre objectif général </a></div>
+                    <div class="menu_gauche2"><a href="ObjectifsSpécifiques.php">Nos Objectifs Spécifiques</a></div>
+                    <div class="menu_gauche2"><a href="Nosmissions.php">Nos missions</a></div>
+                    <div class="menu_gauche2"><a href="Nosvaleurs%20.php">Nos valeurs </a></div>
+                    <div class="menu_gauche2"><a href="Moyensaction.php">Moyens d'action</a></div>
 
 <!--                    <div class="menu_gauche2"><a href="qui_sommes_nous.php?m=2&p=chambres_ac3a&mb=2">Les Chambres de l'AC3A</a></div>-->
 
@@ -59,84 +57,7 @@
                 <link href="ac3aCSS3.css" rel="stylesheet" type="text/css" />
                 <div id="langues"></div>
 
-                <div class="page_contenu" id="general">
-                    <h3>Objectif général</h3>
-                    <br/>
-                    <p>
 
-                        MAIN VERTE a pour objectif général de contribuer à la conservation, la protection et la gestion durable de la biodiversité dans un souci d’amélioration du cadre de vie.
-                    </p>
-                    <br/>
-                    <br/>
-                </div>
-
-                <div class="page_contenu" id="specfi">
-                    <h3>Objectifs Spécifiques</h3>
-                    <br/>
-                    <ul>
-                        <li>
-                            Promouvoir les bonnes pratiques de protection, conservation et gestion durable de la biodiversité
-                        </li>
-                        <li>
-                            Promouvoir des mesures de résilience aux changements climatiques dans l’agriculture
-                        </li>
-                        <li>
-                            Valoriser les contributions des agriculteurs dans la sécurité alimentaire
-                        </li>
-                        <li>
-                            Promouvoir les droits des agriculteurs.
-                        </li>
-                    </ul>
-                    <br/>
-                    <br/>
-                </div>
-
-                <div class="page_contenu" id="missions">
-                    <h3>Nos missions</h3>
-                    <br/>
-                    <ul>
-                        <li>
-                            Relever les défis d’intérêt général de conservation, de protection et de gestion durable de la biodiversité
-                        </li>
-                        <li>
-                            S'impliquer activement au débat environnemental,
-                        </li>
-                        <li>
-                            Mener des actions pour la préservation du patrimoine naturel et la qualité du cadre de vie.
-                        </li>
-                        <li>
-                            Militer pour une agriculture économiquement efficace
-                        </li>
-                        <li>
-                            Travailler à la reconnaissance des contributions des agriculteurs ainsi que de leurs droits.
-                        </li>
-
-                    </ul>
-
-                    <br/>
-                    <br/>
-                </div>
-
-                <div class="page_contenu" id="valeurs">
-                    <h3>nos valeurs</h3>
-                    <br/>
-                    <ul>
-                        <li>
-                            Le respect de l’environnement
-                        </li>
-                        <li>
-                            L’intérêt général, l’humanisme et la solidarité
-                        </li>
-                        <li>
-                            La connaissance et le professionnalisme
-                        </li>
-                        <li>
-                            Le plaisir et le partage...
-                        </li>
-                    </ul>
-                    <br/>
-                    <br/>
-                </div>
 
                 <div class="page_contenu" id="actions">
                     <h3>Moyens d'action</h3>

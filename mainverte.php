@@ -15,23 +15,25 @@
     </style>
 </head>
 <body>
-<div align="center">
-    <div class="general">
-        <div id="bandeau"><div class="retour_accueil"><a href="AC3A.php"><img src="images/transparent_logo.png" width="180" height="65" /></a></div>
-            <div class="versionEN"><a href="http://www.ac3a.fr/AC3A_en.php"><img src="images/drapeaux/drapeau_versionEN.png" width="800" height="22" /></a></a></div>
-            <div id="bloc_menu_bandeau">
-
-                <div class="bouton_contact"><a href="contact.php?mb=1">contact</a></div>
-                <div class="bouton_menu_haut_actif"><a href="qui_sommes_nous.php?m=2&p=bref_historique&mb=2">Qui sommes nous ?</a></div>
-                <div class="bouton_menu_haut"><a href="action_politique.php?m=6&p=agricultures_atlantiques&mb=6">Action politique</a></div>
-                <div class="bouton_menu_haut"><a href="missions_projets.php?m=3&p=mission_ac3a&mb=3">NOS missions et projets</a></div>
-                <div class="bouton_menu_haut"><a href="https://ac3anews.wordpress.com/" target="_blank" >actualités - vie du réseau</a></div>
-                <div class="bouton_menu_haut"><a href="ressources.php?p=economie_de_proximite&mb=5">centre de ressources</a></div>
-
-            </div>
-        </div>
-    </div>
-
+<!--<div align="center">-->
+<!--    <div class="general">-->
+<!--        <div id="bandeau"><div class="retour_accueil"><a href="AC3A.php"><img src="images/transparent_logo.png" width="180" height="65" /></a></div>-->
+<!--            <div class="versionEN"><a href="http://www.ac3a.fr/AC3A_en.php"><img src="images/drapeaux/drapeau_versionEN.png" width="800" height="22" /></a></a></div>-->
+<!--            <div id="bloc_menu_bandeau">-->
+<!---->
+<!--                <div class="bouton_contact"><a href="contact.php?mb=1">contact</a></div>-->
+<!--                <div class="bouton_menu_haut_actif"><a href="qui_sommes_nous.php?m=2&p=bref_historique&mb=2">Qui sommes nous ?</a></div>-->
+<!--                <div class="bouton_menu_haut"><a href="action_politique.php?m=6&p=agricultures_atlantiques&mb=6">Action politique</a></div>-->
+<!--                <div class="bouton_menu_haut"><a href="missions_projets.php?m=3&p=mission_ac3a&mb=3">NOS missions et projets</a></div>-->
+<!--                <div class="bouton_menu_haut"><a href="https://ac3anews.wordpress.com/" target="_blank" >actualités - vie du réseau</a></div>-->
+<!--                <div class="bouton_menu_haut"><a href="ressources.php?p=economie_de_proximite&mb=5">centre de ressources</a></div>-->
+<!---->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<?php
+include_once 'part/entete.php'
+?>
     <div align="center">
         <div id="general_projets">
             <div id="page_entete">qui sommes nous ?</div>
@@ -39,11 +41,11 @@
 
                 <div class="menu_gauche1_2">
 
-                    <div class="menu_actif2"><a href="qui_sommes_nous.php?m=2&p=bref_historique&mb=2">Notre objectif général </a></div>
-                    <div class="menu_gauche2"><a href="qui_sommes_nous.php?m=2&p=organisation_ac3a&mb=2">Nos Objectifs Spécifiques</a></div>
-                    <div class="menu_gauche2"><a href="qui_sommes_nous.php?m=2&p=organigramme_ac3a&mb=2">Nos missions</a></div>
-                    <div class="menu_gauche2"><a href="qui_sommes_nous.php?m=2&p=mission_politique&mb=2">Nos valeurs </a></div>
-                    <div class="menu_gauche2"><a href="qui_sommes_nous.php?m=2&p=organisation_inter_Chambres&mb=2">Moyens d'action</a></div>
+                    <div class="menu_actif2"><a href="mainverte.php">Notre objectif général </a></div>
+                    <div class="menu_gauche2"><a href="ObjectifsSpécifiques.php">Nos Objectifs Spécifiques</a></div>
+                    <div class="menu_gauche2"><a href="Nosmissions.php">Nos missions</a></div>
+                    <div class="menu_gauche2"><a href="Nosvaleurs%20.php">Nos valeurs </a></div>
+                    <div class="menu_gauche2"><a href="Moyensaction.php">Moyens d'action</a></div>
 
 
 
@@ -70,111 +72,111 @@
                     <br/>
                 </div>
 
-                <div class="page_contenu" id="specfi">
-                    <h3>Objectifs Spécifiques</h3>
-                    <br/>
-                    <ul>
-                        <li>
-                            Promouvoir les bonnes pratiques de protection, conservation et gestion durable de la biodiversité
-                        </li>
-                        <li>
-                            Promouvoir des mesures de résilience aux changements climatiques dans l’agriculture
-                        </li>
-                        <li>
-                            Valoriser les contributions des agriculteurs dans la sécurité alimentaire
-                        </li>
-                        <li>
-                            Promouvoir les droits des agriculteurs.
-                        </li>
-                    </ul>
-                    <br/>
-                    <br/>
-                </div>
-
-                <div class="page_contenu" id="missions">
-                    <h3>Nos missions</h3>
-                    <br/>
-                    <ul>
-                        <li>
-                            Relever les défis d’intérêt général de conservation, de protection et de gestion durable de la biodiversité
-                        </li>
-                        <li>
-                            S'impliquer activement au débat environnemental,
-                        </li>
-                        <li>
-                            Mener des actions pour la préservation du patrimoine naturel et la qualité du cadre de vie.
-                        </li>
-                        <li>
-                            Militer pour une agriculture économiquement efficace
-                        </li>
-                        <li>
-                            Travailler à la reconnaissance des contributions des agriculteurs ainsi que de leurs droits.
-                        </li>
-
-                    </ul>
-
-                    <br/>
-                    <br/>
-                </div>
-
-                <div class="page_contenu" id="valeurs">
-                    <h3>nos valeurs</h3>
-                    <br/>
-                    <ul>
-                        <li>
-                            Le respect de l’environnement
-                        </li>
-                        <li>
-                            L’intérêt général, l’humanisme et la solidarité
-                        </li>
-                        <li>
-                            La connaissance et le professionnalisme
-                        </li>
-                        <li>
-                            Le plaisir et le partage...
-                        </li>
-                    </ul>
-                    <br/>
-                    <br/>
-                </div>
-
-                <div class="page_contenu" id="actions">
-                    <h3>Moyens d'action</h3>
-                    <br/>
-                    <ul>
-                        <li>
-                            Mobilisation dans une démarche synergique avec les pouvoirs publics, les partenaires au développement, les conventions internationales, les acteurs économiques, techniques et sociaux qui s’impliquent dans le développement durable et l’agriculture.
-                        </li>
-                        <li>
-                            Formations et études
-                        </li>
-                        <li>
-                            Renforcement de capacités des communautés à la base
-                        </li>
-                        <li>
-                            Campagnes et mobilisations sociales
-                        </li>
-                        <li>
-                            Actions sociales et solidaires
-                        </li>
-                        <li>
-                            Plaidoyer et lobbying
-                        </li>
-                        <li>
-                            Partenariat, partage et négociations
-                        </li>
-
-                        <li>
-                            Productions des émissions TV et Radio
-                        </li>
-                        <li>
-                            Production et diffusion de Magazines
-
-                        </li>
-                    </ul>
-                    <br/>
-                    <br/>
-                </div>
+<!--                <div class="page_contenu" id="specfi">-->
+<!--                    <h3>Objectifs Spécifiques</h3>-->
+<!--                    <br/>-->
+<!--                    <ul>-->
+<!--                        <li>-->
+<!--                            Promouvoir les bonnes pratiques de protection, conservation et gestion durable de la biodiversité-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            Promouvoir des mesures de résilience aux changements climatiques dans l’agriculture-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            Valoriser les contributions des agriculteurs dans la sécurité alimentaire-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            Promouvoir les droits des agriculteurs.-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                    <br/>-->
+<!--                    <br/>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="page_contenu" id="missions">-->
+<!--                    <h3>Nos missions</h3>-->
+<!--                    <br/>-->
+<!--                    <ul>-->
+<!--                        <li>-->
+<!--                            Relever les défis d’intérêt général de conservation, de protection et de gestion durable de la biodiversité-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            S'impliquer activement au débat environnemental,-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            Mener des actions pour la préservation du patrimoine naturel et la qualité du cadre de vie.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            Militer pour une agriculture économiquement efficace-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            Travailler à la reconnaissance des contributions des agriculteurs ainsi que de leurs droits.-->
+<!--                        </li>-->
+<!---->
+<!--                    </ul>-->
+<!---->
+<!--                    <br/>-->
+<!--                    <br/>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="page_contenu" id="valeurs">-->
+<!--                    <h3>nos valeurs</h3>-->
+<!--                    <br/>-->
+<!--                    <ul>-->
+<!--                        <li>-->
+<!--                            Le respect de l’environnement-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            L’intérêt général, l’humanisme et la solidarité-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            La connaissance et le professionnalisme-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            Le plaisir et le partage...-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                    <br/>-->
+<!--                    <br/>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="page_contenu" id="actions">-->
+<!--                    <h3>Moyens d'action</h3>-->
+<!--                    <br/>-->
+<!--                    <ul>-->
+<!--                        <li>-->
+<!--                            Mobilisation dans une démarche synergique avec les pouvoirs publics, les partenaires au développement, les conventions internationales, les acteurs économiques, techniques et sociaux qui s’impliquent dans le développement durable et l’agriculture.-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            Formations et études-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            Renforcement de capacités des communautés à la base-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            Campagnes et mobilisations sociales-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            Actions sociales et solidaires-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            Plaidoyer et lobbying-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            Partenariat, partage et négociations-->
+<!--                        </li>-->
+<!---->
+<!--                        <li>-->
+<!--                            Productions des émissions TV et Radio-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            Production et diffusion de Magazines-->
+<!---->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                    <br/>-->
+<!--                    <br/>-->
+<!--                </div>-->
 
             </div>
 
